@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+body{
+    background-color: #E0E0E0;
+}
+header{
+    height: 30vh;
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 20vh;
+    align-items: center;
+    margin-left: 16rem;
+}
+.cabecalho a, h4{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho a:hover,h4:hover{
+    color: #ffffffa9;
+}
+.search{
+    position: absolute;
+    top: 16%;
+    left: 18.8%;
+    background: #FFFFFF33;
+    border-radius: 5px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}
+.search-text{
+    border: 0;
+    background: none;
+    outline: 0;
+   
+}
+.search-btn img{
+    margin:6px;
+    margin-right: 18px;
+    margin-left: 15px;
+    width: 2vw;
+}
+.search-text::placeholder{
+   color: #FFFFFF33;
+
+}
+main{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+    
+}
+.informacao{
+    background: white;
+    width: 65vw;
+    height:29vh;
+    border-radius: 6px;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+
+}
+span, #icon{
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+    color: #717171;
+    font-size: 15px;
+}
+h3{
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+    font-size: 20px;
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    width: 55vw;
+    margin: 1rem;
+    color:#717171;
+}
+#icon {
+    fill: #574ae801;
+    stroke: #574ae8;
+    stroke-width: 7;
+    transition: fill 0.3s;
+    cursor: pointer;
+    width: 3vw;
+    height: 3.05vh;
+  }
+  
+  #icon.filled,
+  #icon:hover {
+    fill: #574ae8;
+  }
+  
